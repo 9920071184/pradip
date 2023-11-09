@@ -9,7 +9,7 @@ stages:
     jobs:
       - job: Ajob
         steps:
-        - script: "Ascrpt1"
+        - script: "Ascrpti"
            
 
           
