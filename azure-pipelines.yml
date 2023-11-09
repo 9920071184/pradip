@@ -1,8 +1,8 @@
 trigger:
 - master
 
-pool:
- vmimage: ubuntu-latest
+pool: azure-pipeline
+ image: ubuntu-latest
 
 stages:
   - stage: A
