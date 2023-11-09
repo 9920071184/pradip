@@ -1,0 +1,15 @@
+trigger:
+- master
+
+pool:
+ vmimage: ubuntu-latest
+
+stages:
+  - stage: A
+    jobs:
+      - job: Ajob
+        steps:
+        - script: "Ascrpt1"
+           
+
+          
